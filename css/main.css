@@ -1092,6 +1092,7 @@ header {
 header .row {
 	position: relative;
 	min-height: 66px;
+	margin:0;
 }
 header .top-bar {
 	display: block;
@@ -1099,7 +1100,7 @@ header .top-bar {
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	
 	top: 0;
 }
 header .logo {
@@ -2491,9 +2492,11 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 footer {
-	padding-bottom: 3rem;
+	//padding-bottom: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
+	background-color: #000;
+	padding:1.3em 0;
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
