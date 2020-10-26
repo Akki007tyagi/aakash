@@ -1472,13 +1472,15 @@ header .logo a {
 	.intro-content .intro-position {
 		font-size: 1.2rem;
 	}
+
+	.hidespan{
+		display: none !important;
+	}
 	.intro-content .intro-position span {
 		padding: 0 .6rem;
 
 	}
-	.hidespan{
-		display: none;
-	}
+
 	.intro-content .intro-position span::before, .intro-content .intro-position span::after {
 		display: none !important;
 	}
